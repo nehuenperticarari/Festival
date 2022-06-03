@@ -4,9 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+
+    <title>Rap & hip hop festival</title>
+
 </head>
 <body>
+    <header class="header">
+        <div class="container header-content">
+            <h1>Rap & hip hop festival</h1>
+
+            <nav class="navbar">
+
+                <a href="#lineup">Line-up</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#ticket">Tickets</a>
+            
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="container video-content">
+                <h2>Rap & hip hop festival</h2>
+                <p>Marzo 2023, Buenos Aires, Argentina</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="videos/concierto.mp4" type="video/mp4">
+            <source src="videos/concierto.ogg" type="video/ogg">
+            <source src="videos/concierto.webm" type="video/webm">
+        </video>      
+    </div>
+
+    <section class="container festival-info">
+        <div class="img">
+            <picture>
+                <source srcset="build/img/vocalista.avif" type="image/avif">
+                <source srcset="build/img/vocalista.webp" type="image/webp">
+                <img loading="lazy" width="200" height="300" src="./build/img/vocalista.jpg" alt="singer">
+            </picture>
+        </div>
+        <div class="festival-content">
+            <h2>Rap & hiphop festival</h2>
+            <p class="date">Marzo 2023, Buenos Aires, Argentina</p>
+            <p>Fusce ac est non orci varius posuere. Nunc nibh risus, feugiat eu bibendum eu, efficitur at nibh. In et metus tincidunt lacus porta fermentum non a nulla. Nam volutpat accumsan vehicula. Fusce at hendrerit neque, sed pellentesque erat. Integer accumsan vestibulum nibh, non volutpat purus.</p>
+
+        </div>
+    </section>
+
+    <section id="lineup" class="line-up">
+        <h3>line-up</h3>
+
+        <p class="day">Sabado 22</p>
+        <div class="scenarios-container container">
+            <div class="scenarios1 rap bg-yellow">
+                <p class="scenario-name">Escenario Rap</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Origami Owl</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Great Big Canvas</span>
+                    </li>
+                    <li>
+                        20:00 | <span>J bronx</span>
+                    </li>
+                    <li>
+                        19:00 | <span>lixx</span>
+                    </li>
+                    <li>
+                        18:00 | <span>lil way</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Diamond</span>
+                    </li>
+
+                </ul>
+            </div> <!--end scenario  -->
+
+            <div class="scenarios hiphop bg-lightblue">
+                <p class="scenario-name">Escenario Hip Hop</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Cronic</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Yoel</span>
+                    </li>
+                    <li>
+                        20:00 | <span>bogno</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Kong ssj</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Sol 2C</span>
+                    </li>
+                    <li>
+                        17:00 | <span>J-DOPE</span>
+                    </li>
+                </ul>
+            </div> <!--end scenario  -->
+        </div><!-- end scenarios -->
+
+        <p class="day">Sabado 23</p>
+        <div class="scenarios-container container">
+            <div class="scenarios1 rap bg-lightblue">
+                <p class="scenario-name">Escenario Rap</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>FløøW 𝐜</span>
+                    </li>
+                    <li>
+                        22:00 | <span>yavier</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Lil boy</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Moon Star</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Stevenking👑</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Dav music</span>
+                    </li>
+                </ul>
+            </div> <!--end scenario  -->
+
+            <div class="scenarios hiphop bg-yellow">
+                <p class="scenario-name">Escenario Hip Hop</p>
+
+                <ul class="calendar">
+                    <li>
+                        24:00 | <span>Onic</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Barrio Fine</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Onel</span>
+                    </li>
+                    <li>
+                        19:00 | <span>I-guy</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Isaac🎧</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Gibi</span>
+                    </li>
+                </ul>
+            </div> <!--end scenario  -->
+        </div><!-- end scenarios -->
+
+    </section>
+
+    <section id="gallery" class="container gallery">
+        <h3>Galeria</h3>
+        <ul class="gallery-img"></ul>
+    </section>
+
+    <section id="ticket" class="ticket">
+        <h3>Tickets</h3>
+        <div class="container ticket-container">
+            <div class="basic permit">
+                <p class="permit-name">Pase 1 dia</p>
+                <header class="permit-header">
+                    <p>Incluye</p>
+
+                </header>
+                <div class="permit-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Consumicion + bebida</li>
+                    </ul>
+                </div>
+                <footer class="permit-footer">
+                    <p>$50000</p>
+                </footer>
+            </div>
+
+            <div class="full permit">
+                <p class="permit-name">Pase de 2 dias</p>
+                <header class="permit-header">
+                    <p>Incluye</p>
+
+                </header>
+                <div class="permit-body">
+                    <ul>
+                        <li>Acceso a ambos escenarios</li>
+                        <li>Consumicion + bebida</li>
+                        <li>Camisa del recital</li>
+                        <li>Acceso VIP</li>
+                    </ul>
+                </div>
+                <footer class="permit-footer">
+                    <p>$100000</p>
+                </footer>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Rap & hip hop festival. All rights reserverd. &copy; Nehuen Perticarari, 2022</p>
+    </footer>
+
     
+    <script src="./build/js/main.js"></script>
 </body>
 </html>
