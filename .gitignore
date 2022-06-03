@@ -2,4 +2,3 @@ node_modules
 src
 gulpfile.js
 package-lock.json
-.gitingore
